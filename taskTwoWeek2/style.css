@@ -1,0 +1,315 @@
+.containerOne{
+    width: 100%;
+    height: 824px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    background-image: url(./assets/cabin.png);
+    background-position: center;
+    background-size:cover;
+}
+.fa-solid.fa-bars{
+    padding: 25px;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    opacity: 0.4;
+    position:absolute;
+    top:17px;
+    right: 17px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+.contOneText{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+} 
+.TextOne{
+    text-align: center;
+}
+.contOneText .TextOne h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+}
+.contOneText .TextOne h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.contOneText  button{
+    width:180px;
+    height:70px;
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+    color: white;
+    background-color: #1D809F;
+}
+.containerTwo{
+    padding-top: 30px;
+    padding:30px;
+    width: 100%;
+    height: 600px;
+    justify-content: space-evenly;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.containerTwo div{
+    width: 500px;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.containerTwo h4{
+    width: 830px;
+    font-size: 38px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+.containerTwo p{
+    padding-top: 35px;
+    width: 1100px;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+}
+.containerTwo button{
+    width:180px;
+    height:70px;
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+    color: white;
+    background-color: black;
+}
+.containerThree{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 700px;
+    background-color: #1D809F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.containerThree h2{
+    color:#ecb807;
+    font-size: 20px;
+    
+}
+.containerThree h4{
+    color:white;
+    font-size: 50px;
+    
+}
+.services{
+    /* height: 400px; */
+    /* width: 400px; */
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.three{
+    /* height: 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.servicesInfo{
+    height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.servicesIcon{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D809F;
+    width: 120px;
+    height: 120px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.servicesInfo p{
+    width: 220px;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+
+}
+.containerOne{
+    width: 100%;
+    height: 824px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.containerFour{
+    width: 100%;
+    height: 824px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    text-align: center;
+    background-image: url(./assets/submarine.png);
+    background-position: center;
+    background-size:cover;
+
+}
+.containerFour button{
+    margin-top: 45px;
+    width:180px;
+    height:70px;
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+    color: white;
+    background-color: #1D809F;
+    font-family: 'Roboto', sans-serif;
+
+}
+.containerFour h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    width: 500px;
+    
+
+}
+.containerFive h2{
+    color:#ecb807;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+ 
+ }
+.containerFive h4{
+   margin-top: 20px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 60px;
+
+}
+
+.containerFive {
+    padding: 30px;
+    width:100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    }
+img{
+    width: 600px;
+    height: 350px;
+}
+.imgCont{
+    width: 87%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.containerSix{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: #1D809F;
+    color: white;
+
+}
+.containerSix h3 {
+  margin-bottom:50px ;
+  font-family: 'Roboto', sans-serif;
+   font-size: 40px;
+
+
+}
+.Buttons{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.button1{
+    width:180px;
+    height:70px;
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+    color: black;
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.button2{
+    width:180px;
+    height:70px;
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+    color: white;
+    background-color:black;
+    font-family: 'Roboto', sans-serif;
+}
+.containerSeven div img{
+    width: 100%;
+    height: 500px;
+}
+.containerEight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    height: 300px;
+
+}
+.footer{
+   display: flex;
+   width:300px;
+   justify-content: space-around;
+}
+#ic{
+    width: 80px;
+    height: 80px;
+    background-color: #1D809F;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    border-radius: 50%;
+    color: white;
+
+}
+.containerEight p{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+
+}
